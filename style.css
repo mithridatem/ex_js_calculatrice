@@ -1,0 +1,13 @@
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+h2, h3, p{
+    font-family: roboto;
+}
+#error{
+    color: red;
+}
+#ok{
+    color: green;
+}
