@@ -48,7 +48,7 @@ function calculer(){
             resultat.innerHTML = calcul;
         }
         //Test si l'opérateur mathématique est égal à ** (puissance de)
-        else if(operateur=="**"){
+        else if(operateur=="**" || operateur=="^"){
             calcul = "Puissance : " + nbr + " puissance " + nbr2 + " est égal à : <span id='ok'>" + (nbr**nbr2)+"</span>";
             console.log("Puissance : " + nbr + " puissance " + nbr2 + " est égal à : " + (nbr**nbr2));
             resultat.innerHTML = calcul;
