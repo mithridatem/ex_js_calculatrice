@@ -14,7 +14,7 @@ function calculer(){
     let calcul;
     //Test si nbr ou nbr2 ne sont pas des nombres (de type : int ou float)
     if(isNaN(parseFloat(nbr)) || isNaN(parseFloat(nbr2))){
-        calcul = "Veuillez saisir des nombres dans les champs 'Veuillez saisir un nombre'" + " nbr = <span id='error'>" + nbr +  " </span>et nbr2 = <span id='error'>" + nbr2 + " </span>";
+        calcul = "Veuillez saisir des nombres dans les champs : 'Veuillez saisir un nombre'" + " nbr = <span id='error'>" + nbr +  " </span>et nbr2 = <span id='error'>" + nbr2 + " </span>";
         console.log(calcul);
         resultat.innerHTML = calcul;
     }
