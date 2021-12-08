@@ -33,7 +33,7 @@ Bonus Algo JS 2 :
 et dans la page HTML le message suivant :
 "Veuillez saisir un opérateur mathématique de base (+, -, *, /, **) 'contenu de la variable operateur' n\'est pas un opérateur valide.",
 Bonus Algo JS 3 :
--Paser en float nbr et nbr2,
+-Parser en float nbr et nbr2,
 -Tester si nbr et nbr2 sont des nombres -> si ce n'est pas des nombres afficher le message suivant :
 "Veuillez saisir des nombres dans les champs : 'Veuillez saisir un nombre'".
 
